@@ -4,8 +4,13 @@
 " Created: Wed Jan 20 13:34:03 2021
 " Title:   piccolo.vim
 " Summary:
+"
+if exists('g:piccololoaded')
+  finish
+endif
+let g:piccololoaded=1
 
-  function! g:piccolo#Color(group, ...)
+function! piccolo#Color(group, ...)
   let gui = 'hi ' . a:group
   let tui = gui
 
