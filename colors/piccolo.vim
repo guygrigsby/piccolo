@@ -6,6 +6,8 @@
 " Summary: The Piccolo Theme
 "
 hi clear
+syntax reset
+set background=dark
 
 let s:none = [ 'NONE', 'NONE' ]
 let s:ultrablack = [ '#000000', 0 ]
@@ -116,6 +118,9 @@ call piccolo#Color('LineNr', s:grey, s:black)
 call piccolo#Color('NonText', s:verypurple)
 call piccolo#Color('Include', s:fuchsia, s:black, 'italic')
 
-" Must be at the end, because of ctermbg=234 bug.
-" https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
-set background=dark
+hi link Define    Include
+hi link Macro     Include
+hi link PreCondit Include
+
+let g:colors_name = "Piccolo"
+let colors_name   = "Piccolo"
