@@ -116,7 +116,7 @@ call piccolo#Color('CursorColumn', s:black, s:hotpink)
 call piccolo#Color('ColorColumn', s:black, s:warmpurple)
 call piccolo#Color('LineNr', s:grey, s:black)
 call piccolo#Color('NonText', s:verypurple)
-call piccolo#Color('Include', s:fuchsia, s:black, 'italic')
+call piccolo#Color('Include', s:fuchsia)
 
 hi link Define    Include
 hi link Macro     Include
