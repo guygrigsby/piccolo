@@ -97,7 +97,7 @@ if has("spell")
 endif
 call piccolo#Color('Statement', s:warmpurple)
 call piccolo#Color('StatusLine', s:black, s:teal)
-call piccolo#Color('StatusLineNC', s:black, s:lightgrey)
+call piccolo#Color('StatusLineNC', s:grey, s:lightgrey)
 call piccolo#Color('StorageClass', s:steelblue)
 call piccolo#Color('Structure', s:warmpurple)
 call piccolo#Color('Tag', s:steelblue)
