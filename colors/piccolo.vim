@@ -96,8 +96,8 @@ if has("spell")
   call piccolo#Color('SpellRare', s:none, s:none, 'reverse')
 endif
 call piccolo#Color('Statement', s:warmpurple)
-call piccolo#Color('StatusLine', s:teal, s:none, 'undercurl')
-call piccolo#Color('StatusLineNC', s:white, s:teal)
+call piccolo#Color('StatusLine', s:grey, s:teal)
+call piccolo#Color('StatusLineNC', s:black, s:grey)
 call piccolo#Color('StorageClass', s:steelblue)
 call piccolo#Color('Structure', s:warmpurple)
 call piccolo#Color('Tag', s:steelblue)
@@ -116,7 +116,7 @@ call piccolo#Color('CursorColumn', s:black, s:hotpink)
 call piccolo#Color('ColorColumn', s:black, s:warmpurple)
 call piccolo#Color('LineNr', s:grey, s:black)
 call piccolo#Color('NonText', s:verypurple)
-call piccolo#Color('Include', s:fuchsia, s:black, 'italic')
+call piccolo#Color('Include', s:fuchsia)
 
 hi link Define    Include
 hi link Macro     Include
