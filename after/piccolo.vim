@@ -31,3 +31,4 @@ let s:warmpurple = [ '#DA10AC', 165 ]
 call piccolo#Color('Type', s:warmpurple)
 call piccolo#Color('Statement', s:hotpink)
 call piccolo#Color('Special', s:steelblue)
+call piccolo#Color('SpellBad', s:pink, s:none, 'underline')
