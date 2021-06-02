@@ -11,7 +11,7 @@ set background=dark
 
 let s:none = [ 'NONE', 'NONE' ]
 let s:ultrablack = [ '#000000', 0 ]
-let s:black = [ '#121212', 233 ]
+let s:black = [ '#212121', 233 ]
 let s:grey = [ '#626262', 241 ]
 let s:lightgrey = [ '#d0d0d0', 252 ]
 let s:white = [ '#ffffff', 231 ]
@@ -30,6 +30,7 @@ let s:blue = [ '#8470FF', 99 ]
 let s:violet = [ '#eeccff', 177 ]
 let s:plum = [ '#d7afff', 183 ]
 let s:red = [ '#ff0000', 196 ]
+let s:glowgreen = ['##bef081', 10]
 let s:warmpurple = [ '#DA10AC', 165 ]
 let s:fuchsia = [ '#FF00FF', 13 ]
 
@@ -56,8 +57,8 @@ call piccolo#Color('DiffChange', s:hotpink, s:ultrablack)
 call piccolo#Color('DiffText', s:white, s:black)
 
 call piccolo#Color('Directory', s:purple, s:black, 'bold')
-call piccolo#Color('Error', s:lightpink, s:black)
-call piccolo#Color('ErrorMsg', s:white, s:pink, 'bold')
+call picollo#Color('Error',  s:glowgreen)
+call picollo#Color('ErrorMsg',  s:glowgreen)
 call piccolo#Color('Exception', s:warmpurple)
 call piccolo#Color('FoldColumn', s:white, s:darkpurple)
 call piccolo#Color('Folded', s:white, s:darkpurple)
@@ -66,9 +67,8 @@ call piccolo#Color('Identifier', s:warmpurple)
 call piccolo#Color('Ignore', s:black, s:teal)
 call piccolo#Color('Ignore', s:grey, s:purple)
 call piccolo#Color('Keyword', s:verypurple, s:none, 'bold')
-call piccolo#Color('Label', s:verypurple)
+call piccolo#Color('Label', s:verypurple) 
 call piccolo#Color('Macro', s:white)
-
 call piccolo#Color('MatchParen', s:pink, s:none, 'bold')
 call piccolo#Color('MoreMsg', s:hotpink)
 call piccolo#Color('Operator', s:fuchsia)
