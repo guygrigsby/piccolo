@@ -36,7 +36,7 @@ let s:fuchsia = [ '#FF00FF', 13 ]
 
 
 call piccolo#Color('vimCommand', s:hotpink)
-call piccolo#Color('Normal', s:blue, s:black)
+call piccolo#Color('Normal', s:blue, s:ultrablack)
 call piccolo#Color('CursorLine', s:white, s:warmpurple)
 call piccolo#Color('CursorLineNr', s:white, s:warmpurple)
 call piccolo#Color('Keyword', s:hotpink)
