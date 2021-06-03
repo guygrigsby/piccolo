@@ -24,12 +24,11 @@ let s:steelblue = [ '#5fd7ff', 81 ]
 let s:blue = [ '#8470FF', 99 ]
 let s:violet = [ '#eeccff', 177 ]
 let s:plum = [ '#d7afff', 183 ]
-let s:red = [ '#ff0000', 196 ]
 let s:glowgreen = ['#bef081', 10]
 let s:green = ['#5faf00', 70 ]
 let s:warmpurple = [ '#DA10AC', 165 ]
 
-call piccolo#Color('Type', s:warmpurple)
+call piccolo#Color('Type', s:white)
 call piccolo#Color('Statement', s:hotpink)
 call piccolo#Color('Special', s:steelblue)
 call piccolo#Color('SpellBad', s:pink, s:none, 'underline')
