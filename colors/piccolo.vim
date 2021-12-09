@@ -10,7 +10,7 @@ syntax reset
 set background=dark
 
 let s:none = [ 'NONE', 'NONE' ]
-let s:ultrablack = [ '#000000', 0 ]
+let s:ultrablack = [ '#131313', 0 ]
 let s:black = [ '#212121', 233 ]
 let s:grey = [ '#626262', 241 ]
 let s:lightgrey = [ '#d0d0d0', 252 ]
@@ -32,6 +32,7 @@ let s:plum = [ '#d7afff', 183 ]
 let s:glowgreen = ['#bef081', 10]
 let s:warmpurple = [ '#DA10AC', 165 ]
 let s:fuchsia = [ '#ff63ff', 13 ]
+let s:turquoise   = [ '#3fc997', 6]
 
 
 call piccolo#Color('vimCommand', s:hotpink)
@@ -42,7 +43,7 @@ call piccolo#Color('Keyword', s:hotpink)
 call piccolo#Color('Boolean', s:mediumpurple)
 call piccolo#Color('Character', s:mediumpurple)
 call piccolo#Color('Number', s:mediumpurple)
-call piccolo#Color('String', s:white)
+call piccolo#Color('String', s:turquoise)
 call piccolo#Color('Float', s:warmpurple)
 call piccolo#Color('Conditional', s:steelblue, s:ultrablack)
 call piccolo#Color('Constant', s:mediumpurple, s:ultrablack)
@@ -61,11 +62,11 @@ call piccolo#Color('ErrorMsg',  s:glowgreen)
 call piccolo#Color('Exception', s:warmpurple)
 call piccolo#Color('FoldColumn', s:white, s:darkpurple)
 call piccolo#Color('Folded', s:white, s:darkpurple)
-call piccolo#Color('Function', s:teal)
+call piccolo#Color('Function', s:hotpink)
 call piccolo#Color('Identifier', s:warmpurple)
 call piccolo#Color('Ignore', s:ultrablack, s:teal)
 call piccolo#Color('Ignore', s:grey, s:purple)
-call piccolo#Color('Label', s:verypurple) 
+call piccolo#Color('Label', s:verypurple)
 call piccolo#Color('Macro', s:white)
 call piccolo#Color('MatchParen', s:pink, s:none)
 call piccolo#Color('MoreMsg', s:hotpink)
@@ -87,7 +88,7 @@ call piccolo#Color('Special', s:fuchsia)
 call piccolo#Color('SpecialChar', s:fuchsia, s:ultrablack)
 call piccolo#Color('SpecialComment', s:fuchsia, s:ultrablack)
 call piccolo#Color('SpecialKey', s:fuchsia)
-call piccolo#Color('SpellBad', s:white)
+call piccolo#Color('SpellBad', s:turquoise)
 call piccolo#Color('SpellCap', s:none, s:darkpurple)
 call piccolo#Color('SpellLocal', s:none, s:darkpurple)
 call piccolo#Color('SpellRare', s:none, s:none, 'reverse')
@@ -99,7 +100,7 @@ call piccolo#Color('Structure', s:warmpurple)
 call piccolo#Color('Tag', s:steelblue)
 call piccolo#Color('Title', s:hotpink)
 call piccolo#Color('Todo', s:white, s:ultrablack)
-call piccolo#Color('Type', s:white)
+call piccolo#Color('Type', s:plum)
 call piccolo#Color('TypeDef', s:steelblue, s:ultrablack)
 call piccolo#Color('Underline', s:fuchsia, s:none, 'underline')
 call piccolo#Color('VertSplit', s:warmpurple, s:none)
